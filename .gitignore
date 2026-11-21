@@ -1,0 +1,17 @@
+# secrets
+.env
+.env.local
+.env.*.local
+backend/certs/*
+!backend/certs/README.md
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node / vercel
+node_modules/
+dist/
+.vercel/
